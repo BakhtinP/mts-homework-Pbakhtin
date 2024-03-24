@@ -1,0 +1,11 @@
+package lesson_1.Interfaces;
+
+public interface Animal {
+    String getBreed();
+
+    String getName();
+
+    Double getCost();
+
+    String getCharacter();
+}
