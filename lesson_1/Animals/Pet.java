@@ -1,10 +1,11 @@
 package lesson_1.Animals;
 
+import java.time.LocalDate;
+
 public class Pet extends AbstractAnimal {
 
-    public Pet(String breed, String name, Double cost, String character) {
-        super(breed, name, cost, character);
-     //   create();
+    public Pet(String breed, String name, Double cost, String character, LocalDate birthDate) {
+        super(breed, name, cost, character, birthDate);
     }
 
     public void create() {
